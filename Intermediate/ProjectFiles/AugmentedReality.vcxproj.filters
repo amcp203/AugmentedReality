@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\AugmentedReality.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{7E2C498F-10AA-4BF8-80D9-B7343E44991A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AugmentedReality.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\AugmentedRealityEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E97EABD8-347F-4996-B646-59F8A7E71F96}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGameUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{4753DA08-A61C-4B7D-A4AC-406E17E07E95}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\OpenCV">
+			<UniqueIdentifier>{2778EF7D-221C-4D0B-BB9E-1A4098E8E69C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\OpenCV\Source">
+			<UniqueIdentifier>{803F234F-8F02-4D6C-A5C1-1C332C0FB432}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\OpenCV\Source\OpenCV">
+			<UniqueIdentifier>{865B1547-8DD0-475D-9B3F-A31336911C1D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\OpenCV\Source\OpenCV\OpenCV.Build.cs">
+			<Filter>Plugins\OpenCV\Source\OpenCV</Filter>
+		</None >
+		<Filter Include="Plugins\OpenCV\Source\OpenCV\Private">
+			<UniqueIdentifier>{C49FE870-C46A-47B4-84C5-1D9009692571}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\OpenCV\Source\OpenCV\Private\OpenCV.cpp">
+			<Filter>Plugins\OpenCV\Source\OpenCV\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OpenCV\Source\OpenCV\Private\OpenCVPrivatePCH.h">
+			<Filter>Plugins\OpenCV\Source\OpenCV\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\OpenCV\Source\OpenCV\Public">
+			<UniqueIdentifier>{E2E832EF-6454-46A9-9448-00AB4F69EA36}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\OpenCV\Source\OpenCV\Public\OpenCV.h">
+			<Filter>Plugins\OpenCV\Source\OpenCV\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\OpenCV\OpenCV.uplugin">
+			<Filter>Plugins\OpenCV</Filter>
+		</None >
+		<Filter Include="Plugins\OpenCV\Resources">
+			<UniqueIdentifier>{6FCD2AFA-CCED-4596-BCE8-5742A6D2580C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\OpenCV\Resources\Icon128.png">
+			<Filter>Plugins\OpenCV\Resources</Filter>
+		</None >
+		<Filter Include="Source\AugmentedReality">
+			<UniqueIdentifier>{13BDE47D-8455-494A-8F25-3707AF24EDCC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AugmentedReality\AugmentedReality.Build.cs">
+			<Filter>Source\AugmentedReality</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\AugmentedReality\AugmentedReality.cpp">
+			<Filter>Source\AugmentedReality</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AugmentedReality\AugmentedReality.h">
+			<Filter>Source\AugmentedReality</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AugmentedReality\AugmentedRealityGameMode.cpp">
+			<Filter>Source\AugmentedReality</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AugmentedReality\AugmentedRealityGameMode.h">
+			<Filter>Source\AugmentedReality</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AugmentedReality\WebcamReader.cpp">
+			<Filter>Source\AugmentedReality</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AugmentedReality\WebcamReader.h">
+			<Filter>Source\AugmentedReality</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
